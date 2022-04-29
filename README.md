@@ -4,7 +4,7 @@ This theme is adapted from PyTorch Sphinx Theme, with more configurations allowe
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
--e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+-e git+https://github.com/Shanyaliux/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx_copybutton
 ```
 In `docs/conf.py`:
@@ -20,7 +20,7 @@ copybutton_prompt_is_regexp = True
 ```
 
 ### Header Logo
-The header logo is OpenMMLab by default. Each repo should customize the logo by overriding the provided css class.
+The header logo is SerialPort by default. Each repo should customize the logo by overriding the provided css class.
 
 We suggest putting all the html resources to `docs/_static`. First put the logo
 to `docs/_static/images/logo.png`, then write the following snippet to 
